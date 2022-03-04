@@ -1,15 +1,14 @@
 apiVersion: v1
 entries:
   alpine:
-  - apiVersion: v1
-    created: "2022-03-04T17:40:02.983355+08:00"
-    description: Deploy a basic Alpine Linux pod
-    digest: 01b9b7af168e64a1b791b832eb2c30d5152fef3d1c0d91a9a6c2150724c3a5df
-    home: https://k8s.io/helm
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-04T17:54:20.315786+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 611768d0f9373e88aca1d54101ba93441de51d75a0d261c8bf9bb37fcfc49522
     name: alpine
-    sources:
-    - https://github.com/kubernetes/helm
+    type: application
     urls:
-    - https://wayne-beep.github.io/helm-repo/alpine-0.2.0.tgz
-    version: 0.2.0
-generated: "2022-03-04T17:40:02.981226+08:00"
+    - https://wayne-beep.github.io/helm-repo/alpine-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-04T17:54:20.310965+08:00"
