@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  alpine:
+  - apiVersion: v1
+    created: "2022-03-04T17:40:02.983355+08:00"
+    description: Deploy a basic Alpine Linux pod
+    digest: 01b9b7af168e64a1b791b832eb2c30d5152fef3d1c0d91a9a6c2150724c3a5df
+    home: https://k8s.io/helm
+    name: alpine
+    sources:
+    - https://github.com/kubernetes/helm
+    urls:
+    - https://wayne-beep.github.io/helm-repo/alpine-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-03-04T17:40:02.981226+08:00"
