@@ -10,7 +10,7 @@
 	$ mkdir fantastic-charts
 	helm create fantastic-charts/helloworld
 	```
-此时，已经在 fantastic-charts 目录下创建出了 helloworld 这个包的配置文件
+	此时，已经在 fantastic-charts 目录下创建出了 helloworld 这个包的配置文件
 ```shell
 $ tree fantastic-charts
 fantastic-charts
@@ -124,3 +124,15 @@ entries:
 generated: "2022-03-06T09:14:23.010684+08:00"
 ```
 再次提交，即完成 Helm 包的升级
+
+### 本地更新
+```shell
+$ helm repo update
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "testrepo" chart repository
+Update Complete. ⎈Happy Helming!⎈
+
+$ helm search repo testrepo
+NAME               	CHART VERSION	APP VERSION	DESCRIPTION
+testrepo/helloworld	0.1.1        	1.16.0     	A Helm chart for Kubernetes
+```
