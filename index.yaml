@@ -3,7 +3,17 @@ entries:
   helloworld:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-06T09:19:53.953618+08:00"
+    created: "2022-03-06T09:53:24.103964+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 976d92becc2a6c1b0ec8a64d3fea9727d1146b3ce0ab4564a4cdd429a1c24cf5
+    name: helloworld
+    type: application
+    urls:
+    - https://wayne-beep.github.io/helm-repo/helloworld-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-06T09:53:24.103448+08:00"
     description: A Helm chart for Kubernetes
     digest: f0ece1a0a0f95e388ef54b85b74b8c6a7fb984d222f8d8ba7e96e37a92fb5c29
     name: helloworld
@@ -13,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-06T09:19:53.953095+08:00"
+    created: "2022-03-06T09:53:24.102625+08:00"
     description: A Helm chart for Kubernetes
     digest: fe0a3aaf5fa2ce1dd23ab74ebff6c654e706716eb291a1fd4575a9a5cbf28e64
     name: helloworld
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://wayne-beep.github.io/helm-repo/helloworld-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-06T09:19:53.952404+08:00"
+generated: "2022-03-06T09:53:24.101717+08:00"

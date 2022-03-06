@@ -136,3 +136,5 @@ $ helm search repo testrepo
 NAME               	CHART VERSION	APP VERSION	DESCRIPTION
 testrepo/helloworld	0.1.1        	1.16.0     	A Helm chart for Kubernetes
 ```
+
+问题：不能用`helm repo update testrepo`这个命令更新
